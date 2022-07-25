@@ -17,9 +17,9 @@ public class Q1 {
 
 		numbers = findMultiples3and5(limit);
 
-		sum = sumNumbers(numbers);
+		sum = sumNumbersList(numbers);
 		
-		System.out.println("Result: "+sum);
+		System.out.println("Result: " +sum);
 	}
 
 	private static ArrayList<Integer> findMultiples3and5(int limit) {
@@ -37,7 +37,7 @@ public class Q1 {
 		return listNumbers;
 	}
 
-	private static int sumNumbers(ArrayList<Integer> numbers) {
+	private static int sumNumbersList(ArrayList<Integer> numbers) {
 		
 		int sum = 0;
 		
