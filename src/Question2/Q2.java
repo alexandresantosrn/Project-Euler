@@ -13,7 +13,7 @@ public class Q2 {
 
 	public static void main(String[] args) {
 
-		ArrayList<Integer> numbers = new ArrayList<Integer>();
+		ArrayList<Integer> numbers;
 		int limit = 4000000;
 		int sum = 0;
 
@@ -26,7 +26,7 @@ public class Q2 {
 
 	private static ArrayList<Integer> startFibonacci(int limit) {
 
-		ArrayList<Integer> listNumbers = new ArrayList<Integer>();
+		ArrayList<Integer> listNumbers = new ArrayList<>();
 
 		int number1 = 0;
 		int number2 = 1;

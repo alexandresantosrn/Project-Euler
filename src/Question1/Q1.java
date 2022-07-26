@@ -11,7 +11,7 @@ public class Q1 {
 
 	public static void main(String[] args) {
 
-		ArrayList<Integer> numbers = new ArrayList<Integer>();
+		ArrayList<Integer> numbers;
 		int limit = 1000;
 		int sum = 0;
 
@@ -24,7 +24,7 @@ public class Q1 {
 
 	private static ArrayList<Integer> findMultiples3and5(int limit) {
 
-		ArrayList<Integer> listNumbers = new ArrayList<Integer>();
+		ArrayList<Integer> listNumbers = new ArrayList<>();
 
 		for (int i = 1; i < limit; i++) {
 
