@@ -7,6 +7,8 @@ public class Problem001 {
 	 * get 3, 5, 6 and 9. The sum of these multiples is 23.
 	 * 
 	 * Find the sum of all the multiples of 3 or 5 below 1000.
+	 * 
+	 * # Solved by: Alexandre Dantas - December 2023
 	 */
 
 	public static void main(String[] args) {
@@ -16,9 +18,9 @@ public class Problem001 {
 	}
 
 	/**
-	 * Return the sum of multiples by 3 or 5, below 1000.
+	 * Return the sum of multiples divided by 3 or 5, below 1000.
 	 * 
-	 * @return int - Sum of numbers.
+	 * @return int - Sum of multiples.
 	 */
 	private static int findSum() {
 
