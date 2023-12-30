@@ -10,7 +10,7 @@ public class Problem002 {
 	 * By considering the terms in the Fibonacci sequence whose values do not exceed
 	 * four million, find the sum of the even-valued terms.
 	 * 
-	 * # Solved by: Alexandre Dantas - December 2023
+	 * # Solved by: Alexandre Dantas - December 2023.
 	 */
 
 	public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class Problem002 {
 	/**
 	 * Return the sum of even-valued terms of the Fibonacci sequence, below 4000000.
 	 * 
-	 * @return int - Sum of terms.
+	 * @return - The sum of terms.
 	 */
 	private static int findSumFibonacci() {
 
