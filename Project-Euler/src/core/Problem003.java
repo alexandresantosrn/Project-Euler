@@ -29,7 +29,6 @@ public class Problem003 {
 		int factor = 0;
 
 		while (number > 1) {
-
 			for (int i = 2; i <= number; i++) {
 				if (number % i == 0) {
 					number /= i;
@@ -37,7 +36,6 @@ public class Problem003 {
 					i -= 1;
 				}
 			}
-
 		}
 
 		return factor;
