@@ -12,7 +12,7 @@ public class Problem006 {
 	 * Find the difference between the sum of the squares of the first one hundred
 	 * natural numbers and the square of the sum.
 	 * 
-	 * # Solved by: Alexandre Dantas - December 2023.
+	 * # Solved by: Alexandre Dantas - January 2024 .
 	 */
 
 	public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class Problem006 {
 	 * Return the difference between the sum of the squares and the square of the
 	 * sum for number 100.
 	 * 
-	 * @return
+	 * @return - The difference between the values.
 	 */
 	private static int findDifference() {
 
@@ -37,8 +37,7 @@ public class Problem006 {
 			sum += i;
 		}
 
-		int squaresSum = sum * sum;
-		int difference = squaresSum - sumSquares;
+		int difference = sum * sum - sumSquares;
 
 		return difference;
 	}

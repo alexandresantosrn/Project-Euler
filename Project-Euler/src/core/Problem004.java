@@ -48,7 +48,7 @@ public class Problem004 {
 	 * false.
 	 * 
 	 * @param prod - The informed number.
-	 * @return - Return true if the informed number is a palindrome. .
+	 * @return - Return true if the informed number is a palindrome.
 	 */
 	private static boolean isPalindrome(int prod) {
 
