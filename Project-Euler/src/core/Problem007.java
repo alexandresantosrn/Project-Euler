@@ -7,6 +7,8 @@ public class Problem007 {
 	 * that the 6th prime is 13.
 	 * 
 	 * What is the 10001st prime number?
+	 * 
+	 * # Solved by: Alexandre Dantas - January 2024.
 	 */
 
 	public static void main(String[] args) {
