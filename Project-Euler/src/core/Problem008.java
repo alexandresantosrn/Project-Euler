@@ -35,15 +35,21 @@ public class Problem008 {
 				+ "05886116467109405077541002256983155200055935729725"
 				+ "71636269561882670428252483600823257530420752963450";
 
-		int prod = findProduct(word);
+		long prod = findProduct(word);
 		System.out.println("Result: " + prod);
 	}
 
-	private static int findProduct(String word) {
+	/**
+	 * Return the largest product of the thirtheen adjacents digits.
+	 * 
+	 * @param word - The string of digits.
+	 * @return - The product of digits.
+	 */
+	private static long findProduct(String word) {
 
-		int prod = 1;
+		long prod = 1;
 		int count = 0;
-		int finalProduct = 0;
+		long finalProduct = 0;
 
 		for (int i = 0; i <= word.length() - 1; i++) {
 
@@ -51,17 +57,15 @@ public class Problem008 {
 				prod = 1;
 				count = 0;
 				i -= 12;
-				System.out.println("clear");
 			}
 
 			int digit = Character.getNumericValue(word.charAt(i));
 			prod *= digit;
 			count++;
-			System.out.println("D" + digit);
+
 			if (prod > finalProduct) {
 				finalProduct = prod;
 			}
-			System.out.println(prod);
 		}
 
 		return finalProduct;
