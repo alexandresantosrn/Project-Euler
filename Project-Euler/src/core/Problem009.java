@@ -2,6 +2,10 @@ package core;
 
 public class Problem009 {
 
+	/*
+	 * 
+	 * # Solved by: Alexandre Dantas - January 2024.
+	 */
 	public static void main(String[] args) {
 
 		int prod = findProdPythagorean();
